@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hardcore PvP</title>
+<style>
+  :root { --bg:#0b0a0a; --panel:#17130f; --gold:#d8b45a; --text:#e8e0d0; --dim:#9a8f7a; --red:#9b1c1c; }
+  * { box-sizing: border-box; }
+  body { margin:0; background: radial-gradient(ellipse at top, #1b1410 0%, var(--bg) 60%); color:var(--text); font-family: Georgia, "Times New Roman", serif; min-height:100vh; display:flex; align-items:center; justify-content:center; padding:16px; }
+  main { max-width:640px; width:100%; background:var(--panel); border:1px solid #3a2e1e; border-radius:12px; padding:32px 28px; box-shadow:0 20px 60px rgba(0,0,0,.6); }
+  h1 { margin:0 0 6px; font-size:40px; letter-spacing:2px; color:var(--gold); text-transform:uppercase; }
+  .sub { color:var(--dim); margin:0 0 28px; font-size:17px; }
+  a.btn { display:block; text-align:center; background:linear-gradient(#b32424, var(--red)); color:#fff; text-decoration:none; font-size:22px; padding:18px 20px; border-radius:8px; border:1px solid #5a1010; margin:0 0 10px; }
+  a.btn:hover { filter:brightness(1.1); }
+  .note { color:var(--dim); font-size:14px; text-align:center; margin:0 0 28px; }
+  ol { padding-left:22px; line-height:1.7; font-size:17px; }
+  li b { color:var(--gold); }
+  .warn { margin-top:22px; padding:12px 14px; border-left:3px solid var(--red); background:#1f1212; color:#e6c9c9; font-size:15px; }
+  footer { margin-top:26px; color:var(--dim); font-size:13px; text-align:center; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Hardcore PvP</h1>
+  <p class="sub">Un seul perso, une seule vie. Duel, échange, village : on joue ensemble.</p>
+  <a class="btn" href="https://github.com/Electron755/hardcore-pvp-server/releases/latest/download/HardcorePvP.exe">Télécharger pour Windows</a>
+  <p class="note">Un seul fichier, environ 2 Go. Rien à installer.</p>
+  <ol>
+    <li><b>Lance</b> <code>HardcorePvP.exe</code>. Windows peut afficher un avertissement : « Informations complémentaires » puis « Exécuter quand même ».</li>
+    <li><b>Serveur</b> : le champ se remplit tout seul. S'il est vide, attends 30 secondes et relance.</li>
+    <li><b>Crée un compte</b> (nom + mot de passe), puis un personnage.</li>
+    <li><b>Rendez-vous au village</b> : tu vois les autres marcher, tu parles avec Entrée.</li>
+  </ol>
+  <div class="warn">Hardcore : si ton perso meurt, il est perdu. Le duel d'entraînement est là pour s'y faire sans risque.</div>
+  <footer>Le serveur est en ligne quand l'hôte a lancé la partie.</footer>
+</main>
+</body>
+</html>
